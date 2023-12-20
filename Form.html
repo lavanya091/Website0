@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Student Registration form</h1></center>
+    <form style="border-width: 1px;">
+<center><b><label for="name">Name</label></b>&nbsp&nbsp&nbsp&nbsp;
+<input type="text" id="name" name="Name" size="20" placeholder="Enter your name"/><br><br></center>
+<center><b><label for="Sname">Surname</label></b>
+<input type="text" id="Sname" name="Surname"  placeholder="Enter your Surname"/><br><br></center>
+<center><b><label for="mail">Email</label></b>&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="email" id="mail" name="email" placeholder="Enter your email"/><br><br></center>
+<center><b><label for="pswd">Password</label></b></label>
+<input type="password" id="pswd" name="pswd" placeholder="Enter your password"/><br><br></center>
+<center><b><label for="mob">Mobile number</label></b>
+<input type="number" id="mob" name="mobile" pattern="[0-9]{10}" maxlength="10" placeholder="Enter your mobile number"/><br><br>
+<small>Format:1234567890</small><br><br></center>
+<center><b><label for="date">Date of Birth</label></b>
+<input type="datetime-local" id="date" name="date"/><br><br></center>
+<center><b><label for="addr">Address</label></b>&nbsp&nbsp&nbsp&nbsp
+<input type="text" id="addr" name="addr" placeholder="Enter your address"/><br><br></center>
+<center><label for="doc">Please upload any identity card</label>
+<small>Aadhar card/Pancard/Ration card</small>
+<input type="file" name="doc" id="doc" ><br><Br></center>
+<center><input type="submit" value="Submit">
+<input type="reset"></center>
+<center><h4><a href="Login.html">Click here to login</a></h4></center>
+</form>
+
+</body>
+</html>
